@@ -1,0 +1,49 @@
+#form {
+    background: url("background.jpg");
+    color: whitesmoke;
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.form-control {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.699) !important;
+}
+
+.form-control:hover {
+    background: rgba(245, 244, 244, 0.493);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.699) !important;
+}
+select {
+    color: rgba(255, 255, 255, 0.699) !important;
+}
+
+select option {
+    color: grey !important;
+    background-color: rgba(245, 244, 244, 0.493) !important;
+}
+optgroup {
+    color: grey !important;
+    background-color: rgba(245, 244, 244, 0.493) !important;
+}
+
+h1::after {
+    content: "";
+    background: white;
+    width: 220px;
+    height: 3px;
+    display: block;
+    margin: 14px 20px 40px;
+}
